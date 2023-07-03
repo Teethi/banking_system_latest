@@ -42,7 +42,7 @@ def add_user():
         phone_number
     )
 
-@app.route('/account' , methods=['GET','POST'])
+@app.route('/add_account' , methods=['GET','POST'])
 def account():
     if request.method == 'POST':
         data = request.get_json()
